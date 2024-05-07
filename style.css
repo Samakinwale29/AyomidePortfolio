@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+}
+.navbg{
+    background-color: rgb(1, 2, 63);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    margin-left: 20px;
+    color: #fff;
+    font-size: 25px;
+}
+nav{
+    margin-right: 100px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    /* margin: 10px; */
+    /* border: 1px solid red; */
+}
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li:hover{
+    background-color: red;
+}
+/* .login{
+    width: 80px;
+    font-size: 15px;
+    border: 1px solid #ff7300;
+    background-color: rgb(1, 2, 63);
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 100px; ;
+} */
+
+/* <--brief-intro--> */
+.brief-intro{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10em;
+    flex-wrap: wrap;
+
+}
+.intro-word{
+    margin-top: 100px;
+    line-height: 60px;
+    /* margin-right: 150px; */
+}
+.intro-word h3{
+    font-size: 30px;
+}
+.intro-word h2{
+    font-size: 50px;
+
+}
+.intro-word p{
+    font-size: 25px;
+}
+.weeks{
+    color: rgb(172, 113, 4);
+}
+.intro-pic{
+    width: 30%;
+    height: 400px;
+    
+}
+.intro-pic img{
+    width: 100%;
+}
+
+@media (max-width: 640px){
+    .navbg{
+        text-align: center;
+        padding: 5px;
+    }
+    .logo{
+        flex-basis: 100%;
+        margin: 0px;
+    }
+    nav{
+        flex-basis: 100%;
+        margin: 0px;
+    }
+    nav ul li{
+        display: block;
+        padding: 15px;
+        /* margin: 10px; */
+        /* border: 1px solid red; */
+    }
+}
+
+@media (max-width: 640px){
+    .brief-intro{
+        margin-top: 5px;
+    }
+    .intro-word{
+        flex-basis: 100%;  
+        margin-top: 10px;
+        text-align: center;
+    }
+    .intro-pic{
+        flex-basis: 100%;    
+        margin-top: 20px;
+        
+    }
+    .intro-word h3{
+        font-size: 20px;
+    }
+    .intro-word h2{
+        font-size: 40px;
+    
+    }
+    .intro-word p{
+        font-size: 20px;
+    }
+    .intro-pic img{
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+}
+
+/* <-- navigation bar 2--> */
+/* 
+.logo2{
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    margin-left: 400px;
+
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 15px;
+}
+.navbar{
+    background-color: #ff7300;
+}
+.navbar ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.Sign-up{
+    width: 100px;
+    font-size: 15px;
+    border: 1px solid #000000;
+    background-color: #ff7300;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 100px; ;
+}
+.logo2{
+    margin-left: 100px; 
+    color: #ffbc63;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px black;
+} */
